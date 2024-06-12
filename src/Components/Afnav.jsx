@@ -1,11 +1,11 @@
 import React from 'react'
 import './Afnav.css'
-
+import bg from '../assets/background.jpg'
 const Afnav = () => {
   return (
     <div className='Afnav'>
       <div className='Afnav-text'>
-        <h >fbgfglf</h>
+        <img className='bgimg' src= {bg} alt="bg" />
       </div>
     </div>
   )

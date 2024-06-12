@@ -1,13 +1,25 @@
 .abu{
     margin: 80px auto;
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 
 }
-.aboutimg{
-    width: 100%;
+
+.abu1{
+    height: 350px;
+    width: 40%;
     border-radius: 10px;
     display: block;
+}
+.abu2{
+    height: 350px;
+    width: 50%;
+    border-radius: 10px;
+    display: block;
+}
+.name{
+    text-align: center;
 }
