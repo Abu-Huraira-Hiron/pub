@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from "./Components/Navbar"
 import Afnav from "./Components/Afnav"
-import Aboutus from "./Components/Aboutus"
+import About from "./Components/About"
 function App() {
   return (
     <div>
       <Navbar />
       <Afnav/>
-      <Aboutus/>
+      <About/>
        </div>
   )
 }
