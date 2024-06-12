@@ -5,7 +5,7 @@ const Afnav = () => {
   return (
     <div className='Afnav'>
       <div className='Afnav-text'>
-        <h1>we ensure better educaton for betterworld</h1>
+        <h >fbgfglf</h>
       </div>
     </div>
   )
