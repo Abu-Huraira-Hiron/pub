@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import PDFViewer from './Pdfviewer';
-import RegistrationForm from './RegistrationForm';
+import PDFViewer from './PDFViewer'
+import RegistrationForm from './RegistrationForm'
 
 const MainComponent = () => {
     const [isRegistered, setIsRegistered] = useState(false);
@@ -13,7 +13,7 @@ const MainComponent = () => {
     return (
         <div>
             {isRegistered ? (
-                <PDFViewer file={pdfFile} />
+                <Pdfviewer file={pdfFile} />
             ) : (
                 <RegistrationForm onRegister={handleRegister} />
             )}
