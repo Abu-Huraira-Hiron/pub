@@ -1,11 +1,11 @@
 import React from 'react'
 
-const ss = () => {
+const Pdf = () => {
   return (
     <div>
-      <h1>Hi abu</h1>
+      
     </div>
   )
 }
 
-export default ss
+export default Pdf

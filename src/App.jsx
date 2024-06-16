@@ -1,16 +1,21 @@
 import React from 'react'
-import Navbar from "./Components/Navbar"
-import Afnav from "./Components/Afnav"
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import Home from "./Components/Home"
+import Pdf from "./Components/Pdf"
 import About from "./Components/About"
-import MainComponent from './Components/MainComponent';
+import Blog from "./Components/Blog"
+import Contactus from "./Components/Contactus"
+
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Afnav/>
-      <About/>
-      <MainComponent/>
-       </div>
+    <Router>
+      <Route path="/" Component={Home} />
+      <Route path="/about" Component={About} />
+      <Route path="/Pdf" Component={Pdf} />
+      <Route path="/Blog" Component={Blog} />
+      <Route path="/Contactus" Component={Contactus} />
+
+    </Router>
   )
 }
 
